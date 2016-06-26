@@ -1,0 +1,9 @@
+# Action to request control mode (behavior) by name
+string mode_request
+---
+# Action result
+ControlModeStatus  result
+---
+# Action feedback
+ControlModeStatus  feedback
+
