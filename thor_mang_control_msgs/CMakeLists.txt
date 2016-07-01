@@ -7,7 +7,7 @@ project(thor_mang_control_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS roscpp rospy actionlib_msgs actionlib message_generation std_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp actionlib_msgs actionlib message_generation std_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -39,6 +39,7 @@ add_action_files(
   action
   FILES
   ChangeControlMode.action
+  GetControlModes.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -60,7 +61,7 @@ generate_messages(
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES ${PROJECT_NAME}
-  CATKIN_DEPENDS roscpp rospy actionlib_msgs actionlib message_runtime std_msgs
+  CATKIN_DEPENDS roscpp actionlib_msgs actionlib message_runtime std_msgs
   #DEPENDS
 )
 

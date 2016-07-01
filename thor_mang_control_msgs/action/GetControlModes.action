@@ -1,0 +1,6 @@
+---
+string[] available_control_modes
+string current_control_mode
+string[] allowed_control_modes
+---
+

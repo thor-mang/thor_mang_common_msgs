@@ -16,5 +16,6 @@ uint32 ERR_PRIOR_COMMAND_IN_PROGRESS    = 4096
 Header header
 string requested_control_mode
 string current_control_mode
+string[] allowed_control_modes
 uint32 status
 

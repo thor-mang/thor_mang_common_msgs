@@ -38,6 +38,7 @@
 
 // actions
 #include <thor_mang_control_msgs/ChangeControlModeAction.h>
+#include <thor_mang_control_msgs/GetControlModesAction.h>
 
 #endif
 
